@@ -1,0 +1,14 @@
+/* Frase.module.css */
+.fraseContainer {
+  background-color: #3498db;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.fraseTexto {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
