@@ -1,16 +1,9 @@
-import React, { useState } from 'react';
-import SeuNome from './components/SeuNome';
-import Saudacao from './components/Saudacao';
-import './App.css';
+import {BrowserRouter as Router, Switch, Router, Link} from 'react-router-dom'
 
 function App() {
-  const [nome, setNome] = useState('');
 
   return (
     <div>
-      <h1>State Lift: </h1>
-      <SeuNome setNome={setNome} />
-      {nome && <Saudacao nome={nome} />}
     </div>
   );
 }
